@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author lishijie-me
- * @date 2025/4/24 星期四 22:24:34
- * @description MyConsumer
+ * {@code @date} 2025/4/24 星期四 22:24:34
+ * {@code @description} MyConsumer
  */
 @Component
 @RocketMQMessageListener(consumerGroup = "my-consumer-group", topic = "my-money-topic")
